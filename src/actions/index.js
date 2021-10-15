@@ -7,6 +7,10 @@ export const addOne = () => {
     return({type:ADD_ONE});
 }
 
+export const changeOperator = (operation) =>{
+    return({type:CHANGE_OPERATION, payload:operation})
+}
+
 export const applyNumber = (number) => {
     return({type:APPLY_NUMBER, payload:number});
 }
